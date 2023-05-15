@@ -62,4 +62,3 @@ def logout():
     return redirect(url_for('main.index'))
 
 # See https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login for more information
-#EthanP1111-Test
