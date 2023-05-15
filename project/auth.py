@@ -52,12 +52,7 @@ def signup_post():
     # add the new user to the database
     db.session.add(new_user)
     db.session.commit()
-<<<<<<< HEAD
 # test
-=======
-    # db add user
-
->>>>>>> 735968260b3aec3a70d51916fe1ae91e45c047dd
     return redirect(url_for('auth.login'))
 
 @auth.route('/logout')
@@ -67,3 +62,4 @@ def logout():
     return redirect(url_for('main.index'))
 
 # See https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login for more information
+#EthanP1111-Test
