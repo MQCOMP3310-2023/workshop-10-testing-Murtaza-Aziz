@@ -54,6 +54,7 @@ def signup_post():
     db.session.commit()
 <<<<<<< HEAD
 # test
+# test 2
 =======
     # db add user
 
